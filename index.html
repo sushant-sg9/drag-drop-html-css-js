@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side by Side Containers</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div>
+    <div class="container" id="container1">
+        <h2>Container 1</h2>
+        <div class="item" id="item1" draggable="true">Item 1</div>
+        <div class="item" id="item2" draggable="true">Item 2</div>
+        <div class="item" id="item3" draggable="true">Item 3</div>
+      </div>
+      
+      <div class="container" id="container2">
+        <h2>Container 2</h2>
+      </div>
+      </div>
+      <div id="successMessage" style="display: none;"> Successfully dropped into the second container!
+      </div>
+      <div class="button">
+      <button id="resetButton" >Reset</button>
+    </div>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.container {
+    width: 45%;
+    height: 300px;
+    border: 3px solid black;
+    float: left;
+    margin-right: 5%;
+    border-radius: 5px;
+  }
+  
+  .container:nth-child(2n) {
+    margin-right: 0;
+  }
+  
+  .item {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    cursor: move;
+    border-radius:0.5rem ;
+  }
+  
+  #successMessage {
+    display: none;
+    font-family: inherit;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#00BFA6;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: blueviolet;
+  }
+  
+  #resetButton {
+    width: 130px;
+    height: 60px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: black;
+    font-size: 20px;
+    font-weight: 550;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+  }
+  
